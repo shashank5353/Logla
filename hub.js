@@ -32,9 +32,9 @@ sugg.classList.add("sugg");
 
 const sugg_logo=document.createElement("div");
 sugg_logo.classList.add("sugg_logo");
-sugg_logo.style.backgroundImage=`
+/*sugg_logo.style.backgroundImage=`
    url('app_logos/l${l_logos[i]}.jpeg')
- `;
+ `;*/
 sugg.append(sugg_logo);
 
 const sugg_dis_space=document.createElement("div");
