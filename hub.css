@@ -62,7 +62,7 @@
   height: 8vh;
   border-radius: 50%;
   background-color: #0000009f;
-  background: url('app_logo.jpeg');
+  background-image: url('app_logo.jpeg');
   background-size: cover;
 }
 .sugg_dis_space{
