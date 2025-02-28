@@ -35,7 +35,7 @@ sugg_logo.classList.add("sugg_logo");
 /*sugg_logo.style.backgroundImage=`
    url('app_logos/l${l_logos[i]}.jpeg')
  `;*/
-  sugg_logo.style.background=`url('app_logo.jpeg')`;
+  sugg_logo.style.backgroundImage=`url('app_logo.jpeg')`;
 sugg.append(sugg_logo);
 
 const sugg_dis_space=document.createElement("div");
