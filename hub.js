@@ -2,7 +2,7 @@ console.log("hello");
 
 
 const l_name=[
-  "Know it",
+  "Know itt",
   "Drive Buddy",
   "XoX Max",
   "Water Pussel Game",
