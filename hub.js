@@ -85,7 +85,7 @@ sugg_name_dis.append(sugg_name);
 const sugg_dis_open=document.createElement("div");
 sugg_dis_open.classList.add("sugg_dis_open");
 sugg_dis_open.innerHTML=`
- <i class="fa-solid fa-chevron-up"></i>
+ <i class="fa-solid fa-chevron-down"></i>
 `;
 sugg_name_dis.append(sugg_dis_open);
 
