@@ -5,8 +5,8 @@ const l_name=[
   "Know it",
   "Drive Buddy",
   "XoX Max",
-  "Water Pussel Game",
-  "Rock Paper Scisoors",
+  "Water Puzzle Game",
+  "Rock Paper Scissors",
   "XoX Game"
   ];
 const l_link=[
@@ -19,8 +19,25 @@ const l_link=[
   ];
 
 const l_logos=[
-  2,2,1,1,1,1
+  4,3,1,1,1,1
   ];
+
+function toggleDarkMode() {
+  const toogle_btn = document.querySelector(".toogle_btn");
+  const header_name = document.querySelector(".header_name");
+  toogle_btn.addEventListener("click",()=>{
+    document.body.classList.toggle('dark-mode');
+      const icon = toogle_btn.querySelector("i");
+    if (document.body.classList.contains("dark-mode")) {
+    header_name.style.backgroundImage=`url('logo2.png')`;
+        toogle_btn.innerHTML = `<i class="fas fa-sun"></i> `;
+      } else {
+        header_name.style.backgroundImage=`url('logo1.png')`;
+        toogle_btn.innerHTML = `<i class="fas fa-moon"></i>`;
+      }
+  })
+    }
+toggleDarkMode();
 
 function sugg_fun(){
 
@@ -32,8 +49,7 @@ sugg.classList.add("sugg");
 
 const sugg_logo=document.createElement("div");
 sugg_logo.classList.add("sugg_logo");
-/*
-   const formats = ["jpeg", "jpg", "png", "webp", "gif"];
+const formats = ["jpeg", "jpg", "png", "webp", "gif"];
 const imagePath = `app_logos/l${l_logos[i]}`;
 const element = sugg_logo;
 for (const format of formats) {
@@ -43,8 +59,7 @@ for (const format of formats) {
         element.style.backgroundImage = `url('${img.src}')`;
     };
 }
- `;*/
-  sugg_logo.style.backgroundImage=`url('app_logo.jpeg')`;
+
 sugg.append(sugg_logo);
 
 const sugg_dis_space=document.createElement("div");
@@ -61,7 +76,7 @@ sugg_visit_btn.classList.add("sugg_visit_btn");
 sugg_visit_btn.href=`
 ${l_link[i]}
 `;
-sugg_visit_btn.innerText="Vist Now"
+sugg_visit_btn.innerText="Visit Now"
 
 sugg_dis_space.append(sugg_visit_btn);
 
