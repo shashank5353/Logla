@@ -12,11 +12,12 @@ const l_name=[
 const l_dis = [
   "Know It is a smart local search app that helps users discover nearby shops and restaurants, view their items with reviews, and find specific products across multiple stores.",
   "DriveBuddy is a driver-hiring app that connects users with skilled drivers based on their needs, offering subscription plans and automatic replacements for premium users.",
-  "XoX Max is a grid-based strategy game like SOS, where the player who forms the most 'XOX' patterns wins.",
+  "XoX Max is a grid-based strategy game like SOS, where Player X and Player O compete to form the most 3X or 3O matches on the board to win.",
   "Water Puzzle Game is a color-sorting puzzle where players pour water between bottles to match all colors, using logic and limited moves.",
   "Rock Paper Scissors is a quick decision-making game where you play against the computer by choosing rock, paper, or scissors to win rounds.",
-  "XoX Game is a tic-tac-toe style game where players aim to match three Xs or Os anywhere on the grid—not just in a straight line—to win."
+  "XoX Game is a tic-tac-toe style game where players take turns placing Xs and Os, aiming to match three in a row—horizontally, vertically, or diagonally—to win."
 ];
+
 
 const l_link=[
   "https://shashank5353.github.io/Know-it/",
