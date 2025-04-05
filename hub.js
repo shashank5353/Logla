@@ -8,7 +8,8 @@ const l_name=[
   "Water Puzzle Game",
   "Rock Paper Scissors",
   "XoX Game"
-  ];
+  ]; 
+
 const l_link=[
   "https://shashank5353.github.io/Know-it/",
   "https://shashank5353.github.io/Drive_Buddy/",
