@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family:Arial;
   font-family: Sans-Serif;
+  transition: 0.4s;
 }
 :root {
       --bg-color: #f5f5f5;
