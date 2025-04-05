@@ -32,8 +32,17 @@ sugg.classList.add("sugg");
 
 const sugg_logo=document.createElement("div");
 sugg_logo.classList.add("sugg_logo");
-/*sugg_logo.style.backgroundImage=`
-   url('app_logos/l${l_logos[i]}.jpeg')
+/*
+   const formats = ["jpeg", "jpg", "png", "webp", "gif"];
+const imagePath = `app_logos/l${l_logos[i]}`;
+const element = sugg_logo;
+for (const format of formats) {
+    const img = new Image();
+    img.src = `${imagePath}.${format}`;
+    img.onload = () => {
+        element.style.backgroundImage = `url('${img.src}')`;
+    };
+}
  `;*/
   sugg_logo.style.backgroundImage=`url('app_logo.jpeg')`;
 sugg.append(sugg_logo);
