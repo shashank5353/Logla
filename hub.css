@@ -28,7 +28,7 @@
   height: 100%;
   width: 14vh;
   background-color: #00000088;
-  background-color: transparent;
+  
   background-image: url('logo3.png');
   background-size: cover;
 }
