@@ -29,7 +29,7 @@ const l_link=[
   ];
 
 const l_logos=[
-  4,3,1,1,1,1
+  4,3,5,6,7,8
   ];
 
 function toggleDarkMode() {
